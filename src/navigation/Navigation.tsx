@@ -34,11 +34,11 @@ export default function Navigation({children, scrollingNavigationOpen = false, o
             <div className="top-bar d-flex flex-row">
                 <div className="large-content">
                     <div className="d-flex flex-row gap-4 mx-4 align-items-center">
-                        <img className="service" height="30px" src="./github-logo.svg" alt="Github logo"
+                        <img className="service" height="30px" src="./CV/github-logo.svg" alt="Github logo"
                              onClick={() => openInNewTab("https://github.com/Czajsoon")}/>
-                        <img className="service" height="43px" src="./gitlab-logo.svg" alt="Gitlab Logo"
+                        <img className="service" height="43px" src="./CV/gitlab-logo.svg" alt="Gitlab Logo"
                              onClick={() => openInNewTab("https://gitlab.com/Czajsoon")}/>
-                        <img className="service" height="30px" src="./linkedin-logo.svg" alt="LinkedIn Logo"
+                        <img className="service" height="30px" src="./CV/linkedin-logo.svg" alt="LinkedIn Logo"
                              onClick={() => openInNewTab("https://www.linkedin.com/in/jakub-czajkowski-a3280523a/")}/>
                     </div>
                 </div>
@@ -54,13 +54,13 @@ export default function Navigation({children, scrollingNavigationOpen = false, o
                             <Select className="language-selector" labelId="label" id="select" onChange={handleChangeLanguage} value={language}>
                                 <MenuItem value="pl-PL">
                                     <div className="language-item d-flex gap-3">
-                                        <img width="30px" src="./pl-PL.svg"/>
+                                        <img width="30px" src="./CV/pl-PL.svg"/>
                                         <span>Polski (PL)</span>
                                     </div>
                                 </MenuItem>
                                 <MenuItem  value="en-US">
                                     <div className="language-item d-flex gap-3">
-                                        <img width="30px" src="./en-US.svg"/>
+                                        <img width="30px" src="./CV/en-US.svg"/>
                                         <span>English (EN)</span>
                                     </div>
                                 </MenuItem>
@@ -84,13 +84,13 @@ export default function Navigation({children, scrollingNavigationOpen = false, o
                                 <Select className="language-selector" labelId="label" id="select" onChange={handleChangeLanguage} value={language}>
                                     <MenuItem value="pl-PL">
                                         <div className="language-item d-flex gap-3">
-                                            <img width="30px" src="./pl-PL.svg"/>
+                                            <img width="30px" src="./CV/pl-PL.svg"/>
                                             <span>Polski (PL)</span>
                                         </div>
                                     </MenuItem>
                                     <MenuItem  value="en-US">
                                         <div className="language-item d-flex gap-3">
-                                            <img width="30px" src="./en-US.svg"/>
+                                            <img width="30px" src="./CV/en-US.svg"/>
                                             <span>English (EN)</span>
                                         </div>
                                     </MenuItem>
@@ -116,13 +116,13 @@ export default function Navigation({children, scrollingNavigationOpen = false, o
                             <Select className="language-selector" labelId="label" id="select" onChange={handleChangeLanguage} value={language}>
                                 <MenuItem value="pl-PL">
                                     <div className="language-item d-flex gap-3">
-                                        <img width="30px" src="./pl-PL.svg"/>
+                                        <img width="30px" src="./CV/pl-PL.svg"/>
                                         <span>PL</span>
                                     </div>
                                 </MenuItem>
                                 <MenuItem  value="en-US">
                                     <div className="language-item d-flex gap-3">
-                                        <img width="30px" src="./en-US.svg"/>
+                                        <img width="30px" src="./CV/en-US.svg"/>
                                         <span>EN</span>
                                     </div>
                                 </MenuItem>

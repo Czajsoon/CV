@@ -19,9 +19,9 @@ export default function SourceCodeElement(props: Props){
 
     const getLogo = (icon: "github" | "gitlab") => {
         if (icon == "github"){
-            return "./github-logo.svg"
+            return "./CV/github-logo.svg"
         }
-        return "./gitlab-logo.svg"
+        return "./CV/gitlab-logo.svg"
     }
 
     return (

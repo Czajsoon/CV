@@ -13,7 +13,7 @@ export default function WelcomeSection() {
                     <span>&nbsp;</span>
                 </div>
                 <div className="d-flex flex-row gap-5 justify-content-center  w-75">
-                    <Avatar className="avatar-large" sx={{width: 200, height: 200}} alt="Avatar" src="/jcimage.jpg"/>
+                    <Avatar className="avatar-large" sx={{width: 200, height: 200}} alt="Avatar" src="CV/jcimage.jpg"/>
                     <div className="d-flex flex-column">
                         <h1 className="welcome third-text-color m-0">{t("hi")}</h1>
                         <div className="d-flex flex-row gap-2">
@@ -42,7 +42,7 @@ export default function WelcomeSection() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                     <div className="d-flex flex-row gap-3 justify-content-center align-items-center">
                         <Avatar className="avatar-large" sx={{width: 100, height: 100}} alt="Avatar"
-                                src="/jcimage.jpg"/>
+                                src="/CV/jcimage.jpg"/>
                         <div className="d-flex flex-column">
                             <h1 className="welcome third-text-color m-0">{t("hi")}</h1>
                             <p className="casual-text m-0">{t("myNameIs")}</p>
@@ -68,7 +68,7 @@ export default function WelcomeSection() {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                     <div className="d-flex flex-row gap-3 justify-content-center align-items-center">
                         <Avatar className="avatar-large" sx={{width: 200, height: 200}} alt="Avatar"
-                                src="/jcimage.jpg"/>
+                                src="/CV/jcimage.jpg"/>
                         <div className="d-flex flex-column">
                             <h1 className="welcome third-text-color m-0">{t("hi")}</h1>
                             <p className="casual-text m-0">{t("myNameIs")}</p>
