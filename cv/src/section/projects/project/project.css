@@ -1,0 +1,41 @@
+.project-title {
+    border-bottom: solid 2px;
+    /*border-bottom-color: rgba(227, 227, 227, 0.6);*/
+    border-bottom-color: var(--dark-blue-color);
+
+    p {
+        margin: 0;
+        color: var(--light-blue-color);
+        font-size: 1.8em;
+    }
+}
+
+.source-code{
+    p {
+        margin: 0;
+        color: var(--light-blue-color);
+        font-size: 1em;
+        font-weight: 700;
+    }
+}
+
+
+
+.project-technologies-stack{
+    p {
+        margin: 0;
+        color: var(--light-blue-color);
+        font-size: 1em;
+        font-weight: 700;
+    }
+}
+
+.project-description{
+    p {
+        margin: 5px;
+        color: var(--primary-color);
+        font-size: 1.2em;
+        font-weight: 400 !important;
+        text-transform: none;
+    }
+}

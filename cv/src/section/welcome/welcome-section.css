@@ -1,0 +1,86 @@
+@media (max-width: 574px) {
+    p{
+        font-weight: 1000 !important;
+        font-size: 1em !important;
+    }
+    .description-text{
+        font-weight: 400 !important;
+        font-size: 0.9em !important;
+    }
+
+}
+
+@media (min-width: 574px) and (max-width: 1173.99px){
+    .main-container{
+        margin-top: 10% !important;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 573.99px){
+    .main-container{
+        margin-top: 18% !important;
+    }
+}
+
+
+.main-container{
+    margin-top: 7%;
+}
+
+.welcome{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.casual-text{
+    color: var(--primary-color);
+}
+
+.orange-text{
+    color: var(--orange-color);
+}
+
+.light-blue-text{
+    color: var(--light-blue-color);
+}
+
+.description-text{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 1.3em;
+    text-transform: none;
+}
+
+.decoration-container{
+    z-index: -1;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    opacity: 0.2;
+    background-image:
+            radial-gradient(rgb(255, 255, 255) 10%, transparent 10%),
+            radial-gradient(rgb(255, 255, 255) 10%, transparent 10%);
+    background-position: 0px 0px, 12px 12px;
+    background-size: 24px 24px;
+    background-color: transparent;
+    animation: polygon-move 5s infinite alternate;
+}
+
+@keyframes polygon-move {
+    from {clip-path: polygon(9.2% 11%, 88.6% 27.8%, 95.8% 84%, 12% 80.3%);}
+    to {clip-path: polygon(28.5% 10.5%, 81.8% 14.5%, 77.2% 82.8%, 6.8% 63.5%);}
+}
+
+.divider{
+    border-bottom: #ADCAD6 solid 2px;
+}
+
+p{
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+.temp{
+    clip-path: polygon(18.9% 28%, 91.6% 0%, 91.8% 60.3%, 0% 100%);
+}

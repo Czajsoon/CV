@@ -1,0 +1,104 @@
+{
+  "navigation": {
+    "download-cv": "Download CV"
+  },
+  "sidebar-scroller": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "welcome": {
+    "hi": "Hi!",
+    "myNameIs": "My name is",
+    "nameAndSurname": "Jakub Czajkowski",
+    "im": "I'm",
+    "profession": "Junior Java Developer",
+    "description": "I have over 2.5 years of experience as a Junior Java Developer, creating and expanding software. I graduated from the Kielce University of Technology with a Master of Science in Computer Science."
+  },
+  "about": {
+    "title": "About",
+    "p1": "Hello! I’m Jakub, a programmer from Poland, specifically from Kielce. I mainly specialize in backend development, but I also enjoy working on frontend from time to time. \uD83D\uDE09",
+    "p2": "I am currently working at Altar sp. z o.o. on the SARA project, which is an IT platform supporting multimedia service operators and content providers.",
+    "p3": "Outside of work, I love watching TV series and creating my own programming projects that present new challenges for me. \uD83D\uDE04",
+    "interests": {
+      "used-in-work": "Using in work",
+      "used-for-fun": "Using for fun"
+    },
+    "socials": "Social media"
+  },
+  "experience": {
+    "title": "Experience",
+    "altar": {
+      "name": "Altar sp. z o.o.",
+      "position": "Junior Java Developer",
+      "time": "04/2022 - present",
+      "description": {
+        "li1": "Creating and developing the backend written in Java (SpringBoot) and in Kotlin",
+        "li2": "Creating the frontend layer in Angular",
+        "li3": "Handling service requests",
+        "li4": "Developing the SARA system - an IT platform supporting multimedia service operators and content providers",
+        "li5": "Working with databases (Oracle, PostgreSQL, MongoDB)"
+      }
+    },
+    "comarch": {
+      "name": "Comarch S.A.",
+      "position": "Trainee Fullstack Software Developer",
+      "time": "08/2021 - 09/2021",
+      "description": {
+        "p": "The goal of the internship was to create a web application that allowed users to store files in the cloud. The application was created in Java (SpringBoot) and Angular."
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "edu-position": {
+      "spec": "Specialization:"
+    },
+    "bachelor": {
+      "fieldOfStudy": "Computer Science",
+      "location": "Kielce University of Technology",
+      "kind": "Master's Studies",
+      "specialization": "Cybersecurity",
+      "time": "2023-2024"
+    },
+    "master": {
+      "fieldOfStudy": "Computer Science",
+      "location": "Kielce University of Technology",
+      "kind": "Bachelor's Studies",
+      "specialization": "Information Systems",
+      "time": "2019-2023"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "E-mail:",
+    "phone": "Phone:"
+  },
+  "projects": {
+    "title": "Projects",
+    "project": {
+      "source-code": "Source code",
+      "tech-stack": "Tech stack"
+    },
+    "hotel": {
+      "title": "Hotel Management System",
+      "description": {
+        "p1": "A project for a hotel management system based on microservice architecture.",
+        "p2": "The application features 2FA (two-factor authentication) login security.",
+        "p3": "The frontend of the application was developed using the Angular framework. It utilizes UI libraries such as ngPrime, Bootstrap, and Angular Material.",
+        "p4": "The backend was developed using the Spring Boot framework (Java). It supports JWT tokens and uses the Spring Data library for database communication.",
+        "p5": "The application includes translations into Polish, English, and Ukrainian."
+      }
+    },
+    "journal": {
+      "title": "Company Expense Management Application",
+      "description": {
+        "p1": "A project for a web application to manage company expenses.",
+        "p2": "Users can enter their own expense categories and generate monthly expense and income reports.",
+        "p3": "The application includes translations into Polish and English."
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.field-of-study{
+    p{
+        font-size: 1.7em;
+        margin: 0;
+        color: var(--primary-color);
+    }
+}
+
+.location{
+    p{
+        font-size: 1.5em;
+        margin: 0;
+        color: var(--primary-color);
+    }
+}
+
+.specialization{
+    p{
+        font-size: 1.3em;
+        margin: 0;
+        color: var(--primary-color);
+    }
+    .spec-name{
+        color: var(--thirdary);
+    }
+}
+
+
+
+.edu-time{
+    p{
+        font-size: 1.1em;
+        margin: 0;
+        color: var(--primary-color);
+    }
+}
+
+.kind{
+    p{
+        font-size: 1.2em;
+        margin: 0;
+        padding: 10px 20px;
+        color: var(--primary-color);
+        border-radius: 30px;
+        -webkit-box-shadow:0px 0px 16px 0px rgba(0,166,232,0.4) !important;
+        -moz-box-shadow: 0px 0px 16px 0px rgba(0,166,232,0.4) !important;
+        box-shadow: 0px 0px 16px 0px rgba(0,166,232,0.4) !important;
+    }
+}

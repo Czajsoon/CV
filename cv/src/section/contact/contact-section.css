@@ -1,0 +1,27 @@
+.contacts{
+    p{
+        color: var(--primary-color);
+        text-transform: none;
+        font-size: 1.6em;
+        margin: 0;
+    }
+}
+
+
+.email-contact{
+
+}
+
+.email-contact-value{
+    color: var(--blue-color) !important;
+}
+
+.phone-contact-value{
+    color: var(--blue-color) !important;
+}
+
+.contact-icon{
+    svg{
+        color: var(--primary-color);
+    }
+}

@@ -1,0 +1,53 @@
+.exp-container{
+    /*margin-top: 30%;*/
+}
+
+.exp-divider{
+    border-bottom: #ADCAD6 solid 2px;
+    height: 1px;
+    width: 75%;
+}
+
+.section-title{
+    color: var(--blue-color) !important;
+    p{
+        margin: 0;
+    }
+}
+
+.decoration-container{
+    z-index: -1;
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    opacity: 0.1;
+    background-image:
+            radial-gradient(rgb(255, 255, 255) 10%, transparent 10%),
+            radial-gradient(rgb(255, 255, 255) 10%, transparent 10%);
+    background-position: 0px 0px, 12px 12px;
+    background-size: 24px 24px;
+    background-color: transparent;
+    animation: polygon-move 5s infinite alternate;
+}
+
+@keyframes polygon-move {
+    from {clip-path: polygon(9.2% 11%, 88.6% 27.8%, 95.8% 84%, 12% 80.3%);}
+    to {clip-path: polygon(28.5% 10.5%, 81.8% 14.5%, 77.2% 82.8%, 6.8% 63.5%);}
+}
+
+@media (min-width: 1174px) {
+
+
+}
+
+@media (min-width: 574px) and (max-width: 1173.99px){
+
+}
+
+@media (min-width: 0px) and (max-width: 573.99px){
+    .section-title{
+        p{
+            font-size: 2em !important;
+        }
+    }
+}

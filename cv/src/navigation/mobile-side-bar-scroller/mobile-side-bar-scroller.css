@@ -1,0 +1,17 @@
+.mobile-side-bar-scroller{
+    padding-top: var(--top-bar-size);
+    z-index: 1000;
+    position: fixed;
+    width: 50px;
+    height: 100%;
+    background: rgba(125, 234, 246, 0.05);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    p{
+        transform: rotate(-90deg);
+        text-wrap: nowrap;
+        font-size: 0.9em;
+        color: var(--primary-color);
+        margin: 0;
+    }
+}

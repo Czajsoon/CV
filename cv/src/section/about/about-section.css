@@ -1,0 +1,16 @@
+.info-description{
+    p{
+        color: var(--primary-color);
+        font-size: 1.2em;
+        text-transform: none;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 573.99px){
+    .info-description{
+        p{
+            font-weight: 400 !important;
+        }
+    }
+}

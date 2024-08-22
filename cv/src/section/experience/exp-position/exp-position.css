@@ -1,0 +1,59 @@
+.company, .position, .time{
+    p{
+        margin: 0;
+    }
+}
+
+.company{
+    font-size: 0.8em;
+    color: var(--primary-color);
+}
+
+.position{
+    font-size: 0.5em;
+    color: var(--primary-color);;
+}
+
+.time{
+    font-size: 0.4em;
+    color: var(--primary-color);
+}
+
+.description{
+    color: var(--primary-color);
+    p, li, ul {
+        line-height: 2;
+        font-size: 1em;
+        text-transform: none;
+        font-weight: 400 !important;
+        margin: 0;
+        color: var(--primary-color);
+    }
+}
+
+@media (min-width: 1174px) {
+
+
+}
+
+@media (min-width: 574px) and (max-width: 1173.99px){
+
+}
+
+@media (min-width: 0px) and (max-width: 573.99px){
+    .company{
+        p{
+            font-size: 1.9em !important;
+        }
+    }
+    .position{
+        p{
+            font-size: 1.8em !important;
+        }
+    }
+    .time{
+        p{
+            font-size: 1.75em !important;
+        }
+    }
+}
