@@ -1,0 +1,104 @@
+{
+  "navigation": {
+    "download-cv": "Pobierz CV"
+  },
+  "sidebar-scroller": {
+    "about": "O mnie",
+    "experience": "Doświadczenie",
+    "education": "Wykształcenie",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "welcome": {
+    "hi": "Cześć!",
+    "myNameIs": "Nazywam się",
+    "nameAndSurname": "Jakub Czajkowski",
+    "im": "Jestem",
+    "profession": "Junior Java Developerem",
+    "description": "Posiadam ponad 2,5 letnie doświadczenie na stanowisku junior java developer, tworząc oraz rozbudowując oprogramowanie. Ukończyłem studia na Politechnice Świętokrzyskiej uzyskując tytuł Magistra Inżyniera Informatyki."
+  },
+  "about": {
+    "title": "O mnie",
+    "p1": "Cześć! Jestem Jakub, programista z Polski, a dokładniej z Kielc. Specjalizuję się głównie w backendzie, ale lubię też czasem popracować nad frontendem. \uD83D\uDE09",
+    "p2": "Obecnie pracuję w Altar sp. z o.o. nad projektem SARA, czyli platformą informatyczną wspierającą operatorów usług multimedialnych i dostawców treści.",
+    "p3": "Poza pracą uwielbiam oglądać seriale oraz tworzyć własne projekty programistyczne, które stawiają przede mną nowe wyzwania. \uD83D\uDE04",
+    "interests": {
+      "used-in-work": "Wykorzystuję w pracy",
+      "used-for-fun": "Wykorzystuję dla zabawy"
+    },
+    "socials": "Social media"
+  },
+  "experience": {
+    "title": "Doswiadczenie",
+    "altar": {
+      "name": "Altar sp. z o.o.",
+      "position": "Junior Java Developer",
+      "time": "04/2022 - obecnie",
+      "description": {
+        "li1": "Tworzenie oraz rozwój backendu napisanego w Javie (SpringBoot) oraz w wersji z kotlinem",
+        "li2": "Tworzenie warstwy frontend w Angular",
+        "li3": "Obsługa zgłoszeń serwisowych",
+        "li4": "Rozwój systemu SARA - platformy informatycznej wspierającej operatorów usług multimedialnych i dostawców treści",
+        "li5": "Praca z bazą danych (Oracle, PostgreSQL, MongoDB)"
+      }
+    },
+    "comarch": {
+      "name": "Comarch S.A.",
+      "position": "Trainee Fullstack Software Developer",
+      "time": "08/2021 - 09/2021",
+      "description": {
+        "p": "Celem praktyk było stworzenie aplikacji webowej, która umożliwiała użytkownikom przechowywanie plików w chmurze. Aplikacja Została stworzona w Java (SpringBoot) oraz Angular."
+      }
+    }
+  },
+  "education": {
+    "title": "Wykształcenie",
+    "edu-position": {
+      "spec": "Specjalizacja:"
+    },
+    "bachelor": {
+      "fieldOfStudy": "Informatyka",
+      "location": "Politechnika Świętokrzyska",
+      "kind": "Studia Magisterskie",
+      "specialization": "Cyberbezpieczeństwo",
+      "time": "2023-2024"
+    },
+    "master": {
+      "fieldOfStudy": "Informatyka",
+      "location": "Politechnika Świętokrzyska",
+      "kind": "Studia Inżynierskie",
+      "specialization": "Systemy informacyjne",
+      "time": "2019-2023"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "email": "E-mail:",
+    "phone": "Telefon:"
+  },
+  "projects": {
+    "title": "Projekty",
+    "project": {
+      "source-code": "Kod źródłowy",
+      "tech-stack": "Stos technologiczny"
+    },
+    "hotel": {
+      "title": "System zarządzania hotelem",
+      "description": {
+        "p1": "Projekt systemu do zarządzania hotelem oparty na architekturze mikroserwisowej.",
+        "p2": "Aplikacja posiada zabezpieczenia logowania 2FA (two-factor authentication).",
+        "p3": "Frontend aplikacji został przygotowany z wykorzystaniem frameworka Angular. Aplikacja ta wykorzystuje biblioteki UI takie jak ngPrime, Bootstrap oraz Angular Material.",
+        "p4": "Backend został przygotowany w frameworku Spring Boot (Java). Posiada on obsługę tokenów JWT oraz wykorzystuje bibliotekę Spring Data do komunikacji z bazą danych.",
+        "p5": "Aplikacja posiada tłumaczenia na języki takie jak polski, angielski oraz ukraiński."
+      }
+    },
+    "journal": {
+      "title": "Aplikacja do zarządzania wydatkami firmy",
+      "description": {
+        "p1": "Projekt aplikacji internetowej do zarządzania wydatkami dla firmy.",
+        "p2": "Użytkownik może wprowadzać własne kategorie wydatków oraz generować miesięczne raporty wydatków i przychodów.",
+        "p3": "Aplikacja posiada tłumaczenia na języki takie jak polski i angielski."
+      }
+    }
+  }
+}
