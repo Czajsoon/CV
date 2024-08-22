@@ -1,4 +1,5 @@
 {
+  "homepage": "https://czajsoon.github.io/CV",
   "name": "cv",
   "version": "0.1.0",
   "private": true,
@@ -34,11 +35,11 @@
   },
   "scripts": {
     "start": "cv/node_modules/.bin/react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "cv/node_modules/.bin/react-scripts build",
     "test": "cv/node_modules/.bin/react-scripts test",
     "eject": "cv/node_modules/.bin/react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
