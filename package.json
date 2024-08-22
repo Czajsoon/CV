@@ -39,7 +39,7 @@
     "deploy" : "gh-pages -d build",
     "build": "cv/node_modules/.bin/react-scripts build",
     "test": "cv/node_modules/.bin/react-scripts test",
-    "eject": "cv/node_modules/.bin/react-scripts eject",
+    "eject": "cv/node_modules/.bin/react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
