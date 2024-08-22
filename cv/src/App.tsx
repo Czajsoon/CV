@@ -22,6 +22,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 import AboutSection from "./section/about/AboutSection";
+import GoToTop from "./shared/go-to-top/GoToTop";
 
 const cvElements: SideBarScrollerElement[] = [
     {name: "about", id: "about-section", icon: faCircleInfo},
@@ -42,6 +43,7 @@ export default function App() {
         <div>
             <SideBarScroller elements={cvElements}/>
             <Navigation onValueNavigationChange={changeDrawerState}>
+                <GoToTop/>
                 <RevealFromBottom width={"100%"}>
                     <WelcomeSection/>
                 </RevealFromBottom>
@@ -76,6 +78,7 @@ export default function App() {
                 elements={cvElements}
                 drawerState={drawerState}
                 changeDrawerState={changeDrawerState}/>
+
         </div>
 
     );
