@@ -13,7 +13,7 @@ export default function WelcomeSection() {
                     <span>&nbsp;</span>
                 </div>
                 <div className="d-flex flex-row gap-5 justify-content-center  w-75">
-                    <Avatar className="avatar-large" sx={{width: 200, height: 200}} alt="Avatar" src="CV/jcimage.jpg"/>
+                    <Avatar className="avatar-large" sx={{width: 200, height: 200}} alt="Avatar" src="/CV/jcimage.jpg"/>
                     <div className="d-flex flex-column">
                         <h1 className="welcome third-text-color m-0">{t("hi")}</h1>
                         <div className="d-flex flex-row gap-2">

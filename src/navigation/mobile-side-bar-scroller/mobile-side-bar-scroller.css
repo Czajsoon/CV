@@ -1,7 +1,6 @@
 .mobile-side-bar-scroller{
     padding-top: var(--top-bar-size);
     z-index: 1000;
-    position: fixed;
     width: 50px;
     height: 100%;
     background: rgba(125, 234, 246, 0.05);

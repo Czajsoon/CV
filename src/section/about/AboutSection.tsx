@@ -33,11 +33,11 @@ export default function AboutSection() {
                                     <p>{t("socials")}</p>
                                 </div>
                                 <div className="d-flex flex-wrap align-items-center py-3 gap-3">
-                                    <img className="service" height="30px" src="./CV/github-logo.svg" alt="Github logo"
+                                    <img className="service" height="30px" src="/CV/github-logo.svg" alt="Github logo"
                                          onClick={() => openInNewTab("https://github.com/Czajsoon")}/>
-                                    <img className="service" height="43px" src="./CV/gitlab-logo.svg" alt="Gitlab Logo"
+                                    <img className="service" height="43px" src="/CV/gitlab-logo.svg" alt="Gitlab Logo"
                                          onClick={() => openInNewTab("https://gitlab.com/Czajsoon")}/>
-                                    <img className="service" height="30px" src="./CV/linkedin-logo.svg" alt="LinkedIn Logo"
+                                    <img className="service" height="30px" src="/CV/linkedin-logo.svg" alt="LinkedIn Logo"
                                          onClick={() => openInNewTab("https://www.linkedin.com/in/jakub-czajkowski-a3280523a/")}/>
                                 </div>
                             </div>
@@ -62,11 +62,11 @@ export default function AboutSection() {
                                     <p>{t("socials")}</p>
                                 </div>
                                 <div className="d-flex flex-wrap align-items-center py-3 gap-3">
-                                    <img className="service" height="30px" src="./CV/github-logo.svg" alt="Github logo"
+                                    <img className="service" height="30px" src="/CV/github-logo.svg" alt="Github logo"
                                          onClick={() => openInNewTab("https://github.com/Czajsoon")}/>
-                                    <img className="service" height="43px" src="./CV/gitlab-logo.svg" alt="Gitlab Logo"
+                                    <img className="service" height="43px" src="/CV/gitlab-logo.svg" alt="Gitlab Logo"
                                          onClick={() => openInNewTab("https://gitlab.com/Czajsoon")}/>
-                                    <img className="service" height="30px" src="./CV/linkedin-logo.svg" alt="LinkedIn Logo"
+                                    <img className="service" height="30px" src="/CV/linkedin-logo.svg" alt="LinkedIn Logo"
                                          onClick={() => openInNewTab("https://www.linkedin.com/in/jakub-czajkowski-a3280523a/")}/>
                                 </div>
                             </div>
@@ -91,11 +91,11 @@ export default function AboutSection() {
                                     <p>{t("socials")}</p>
                                 </div>
                                 <div className="d-flex flex-wrap align-items-center py-3 gap-3">
-                                    <img className="service" height="30px" src="./CV/github-logo.svg" alt="Github logo"
+                                    <img className="service" height="30px" src="/CV/github-logo.svg" alt="Github logo"
                                          onClick={() => openInNewTab("https://github.com/Czajsoon")}/>
-                                    <img className="service" height="43px" src="./CV/gitlab-logo.svg" alt="Gitlab Logo"
+                                    <img className="service" height="43px" src="/CV/gitlab-logo.svg" alt="Gitlab Logo"
                                          onClick={() => openInNewTab("https://gitlab.com/Czajsoon")}/>
-                                    <img className="service" height="30px" src="./CV/linkedin-logo.svg" alt="LinkedIn Logo"
+                                    <img className="service" height="30px" src="/CV/linkedin-logo.svg" alt="LinkedIn Logo"
                                          onClick={() => openInNewTab("https://www.linkedin.com/in/jakub-czajkowski-a3280523a/")}/>
                                 </div>
                             </div>
