@@ -14,7 +14,7 @@
     "myNameIs": "Nazywam się",
     "nameAndSurname": "Jakub Czajkowski",
     "im": "Jestem",
-    "profession": "Junior Java Developerem",
+    "profession": "Java Software Engineer",
     "description": "Posiadam prawie 3 letnie doświadczenie na stanowisku junior java developer, tworząc oraz rozbudowując oprogramowanie. Ukończyłem studia na Politechnice Świętokrzyskiej uzyskując tytuł Magistra Inżyniera Informatyki."
   },
   "about": {
@@ -98,6 +98,12 @@
         "p1": "Projekt aplikacji internetowej do zarządzania wydatkami dla firmy.",
         "p2": "Użytkownik może wprowadzać własne kategorie wydatków oraz generować miesięczne raporty wydatków i przychodów.",
         "p3": "Aplikacja posiada tłumaczenia na języki takie jak polski i angielski."
+      }
+    },
+    "cv": {
+      "title": "Aplikacja CV",
+      "description": {
+        "p1": "Projekt aplikacji internetowej mojego cv."
       }
     }
   }
