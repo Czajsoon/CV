@@ -25,6 +25,14 @@ export default function ProjectsSection() {
         ]
     }
 
+    const cvProject: IProject = {
+        projectName: t("cv.title"),
+        tech: ["React"],
+        sourceCode: [
+            { link: "https://github.com/Czajsoon/CV", icon: "github"}
+        ]
+    }
+
     return (
         <div>
             <SectionTitle title={t("title")}/>
@@ -42,7 +50,9 @@ export default function ProjectsSection() {
                         <p>{t("journal.description.p2")}</p>
                         <p>{t("journal.description.p3")}</p>
                     </Project>
-
+                    <Project data={cvProject}>
+                        <p>{t("cv.description.p1")}</p>
+                    </Project>
                 </div>
             </div>
         </div>
